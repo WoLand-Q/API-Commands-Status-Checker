@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Базовые сбросы и шрифты */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Контейнер */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Блок ответа */
+#responseContainer {
+  margin-top: 30px;
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  display: none; /* Изначально скрыто */
+}
+
+.hidden {
+  display: none;
+}
+
+pre {
+  background: #2d2d2d;
+  color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.knowledge-tip {
+  margin-top: 20px;
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 5px;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+/* Пример небольших анимаций (из Animate.css используем fadeInUp) */
